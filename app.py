@@ -14,5 +14,5 @@ def index():
     return 'Deployed Flask project on Heroku by ~aady95'
 
 
-def app():
+if __name__ == "__main__":
     app.run('127.0.0.1', port=5000, debug=True)
